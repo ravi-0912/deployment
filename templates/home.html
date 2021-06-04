@@ -1,0 +1,21 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> IRIS FLOWER PREDICTION </h1><br>
+        
+        <form action="{{url_for('home')}}", method="POST">
+           <b> SepalLength(cm) :  <input type="text", name='a', placeholder="*Required fields"> <br><br>
+            SepalWidth(cm):  <input type="text", name='b', placeholder="*Required fields"> <br><br>
+            PetalLength(cm):  <input type="text", name='c', placeholder="*Required fields"> <br><br>
+            PetalWidth(cm): <input type="text", name='d', placeholder="*Required fields"> <br><br><br></b>
+            <input type="submit" , value='Get Prediction' >
+        </form>
+
+        
+        
+    </center>
+
+    </body>
+</html>
